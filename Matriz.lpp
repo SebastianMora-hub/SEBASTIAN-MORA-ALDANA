@@ -1,0 +1,19 @@
+arreglo [7,7] de entero mat
+entero i, j
+
+	inicio 
+	
+	i<-0
+	j<-0
+	llamar inicializar_Aleatorio()
+
+		para i<-1 hasta 5 haga
+			para j<-1 hasta 5 haga
+				mat [i,j]<- Aleatorio()*10
+			fin para
+		fin para 
+	
+		para i<-1 hasta 5 haga 
+			escriba mat [i,1], " ", mat [i,2], " ", mat [i,3], " ", mat [i,4], " ", mat [i,5]
+		fin para
+	fin 

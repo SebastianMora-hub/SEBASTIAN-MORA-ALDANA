@@ -1,0 +1,35 @@
+entero A, B, resultado
+
+inicio 
+
+	escriba "vamos a calcular la suma, resta, division y multiplicacion de dos numeros"
+	llamar nueva_linea
+	escriba "ingrese primer numero"
+	llamar nueva_linea
+	lea A
+	llamar nueva_linea 
+	escriba "ingrese segundo numero"
+	llamar nueva_linea
+	lea B
+	llamar nueva_linea 
+	escriba "suma"
+	llamar nueva_linea
+	resultado<-A+B
+	llamar nueva_linea 
+	escriba "el resultado de la suma es: ", resultado
+	llamar nueva_linea 
+	escriba "resta"
+	llamar nueva_linea 
+	resultado<-A-B
+	escriba "el resultado de la resta es: ", resultado 
+	llamar nueva_linea 
+	escriba "division"
+	llamar nueva_linea 
+	resultado<-A/B
+	escriba "el resultado de la division es: ", resultado 
+	llamar nueva_linea 
+	escriba "multiplicacion"
+	llamar nueva_linea 
+	resultado<-A*B
+	escriba "el resultado de la multiplicacion es: ", resultado
+fin 

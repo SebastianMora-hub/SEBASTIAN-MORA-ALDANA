@@ -1,0 +1,20 @@
+entero A, B
+inicio 
+	
+	escriba "diferenciar cual numero es mayor y cual menor"
+	llamar nueva_linea 
+	escriba "escriba primero numero"
+	llamar nueva_linea 
+	lea A
+	escriba "escriba segundo numero"
+	llamar nueva_linea
+	lea B 
+	llamar nueva_linea 
+	
+		Si A>B entonces 
+			escriba A, " es mayor que ", B
+		sino 
+			escriba B, " es mayor que ", A
+		fin si
+fin 
+	

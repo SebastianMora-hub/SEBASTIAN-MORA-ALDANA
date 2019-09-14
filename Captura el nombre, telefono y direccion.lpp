@@ -1,0 +1,28 @@
+entero resultado
+cadena [30] A
+cadena [30] C
+cadena [30] B 
+inicio 
+
+	escriba "vamos a tomar su nombre, telefono y direccion"
+	llamar nueva_linea 
+	escriba "ingrese Su nombre"
+	llamar nueva_linea 
+	lea A
+	llamar nueva_linea 
+	escriba "ingrese su telefono (sin puntos)"
+	llamar nueva_linea
+	lea B
+	llamar nueva_linea
+	escriba "ingrese direccion"
+	llamar nueva_linea
+	lea c 
+	llamar nueva_linea 
+	escriba "Su nombre es: ", A
+	llamar nueva_linea 
+	escriba "su telefono es: ", B
+	llamar nueva_linea 
+	escriba "su direccion es: ", C
+	
+	
+fin 

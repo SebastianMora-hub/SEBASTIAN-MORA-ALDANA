@@ -1,0 +1,71 @@
+entero A, B, C
+caracter Opcion 
+inicio 
+	escriba "calculadora"
+	llamar nueva_linea
+	escriba "S o s, para sumar"
+	llamar nueva_linea 
+	escriba "R o r para restar"
+	llamar nueva_linea 
+	escriba "D o d para dividir"
+	llamar nueva_linea 
+	escriba "M o m para multiplicar"
+	llamar nueva_linea 
+	Lea opcion 
+		caso opcion 
+					'S','s': escriba "vamos a sumar"
+							   llamar nueva_linea
+							   escriba "ingrese primer numero"
+							   llamar nueva_linea
+							   lea A
+							   llamar nueva_linea
+							   escriba "ingrese segundo numero"
+							   llamar nueva_linea
+							   lea B
+							   C<-A+B
+							   llamar nueva_linea
+							   escriba "el resultado de la suma es: ", C
+							   
+					'R','r': escriba "vamos a restar"
+							   llamar nueva_linea
+							   escriba "ingrese primer numero"
+							   llamar nueva_linea
+							   lea A
+							   llamar nueva_linea
+							   escriba "ingrese segundo numero"
+							   llamar nueva_linea
+							   lea B
+							   C<-A-B
+							   llamar nueva_linea
+							   escriba "el resultado de la resta es: ", C
+							   
+					'D','d': escriba "vamos a dividir"
+							   llamar nueva_linea
+							   escriba "ingrese primer numero"
+							   llamar nueva_linea
+							   lea A
+							   llamar nueva_linea
+							   escriba "ingrese segundo numero"
+							   llamar nueva_linea
+							   lea B
+							   C<-A/B
+							   llamar nueva_linea
+							   escriba "el resultado de la division es: ", C
+							   
+		
+					'M','m': escriba "vamos a multiplicar"
+							   llamar nueva_linea
+							   escriba "ingrese primer numero"
+							   llamar nueva_linea
+							   lea A
+							   llamar nueva_linea
+							   escriba "ingrese segundo numero"
+							   llamar nueva_linea
+							   lea B
+							   C<-A*B
+							   llamar nueva_linea
+							   escriba "el resultado de la multiplicacion es: ", C
+		fin caso
+	fin 
+
+	

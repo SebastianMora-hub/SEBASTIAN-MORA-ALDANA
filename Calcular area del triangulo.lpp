@@ -1,0 +1,17 @@
+entero altura, base, resultado
+
+inicio 
+
+	escriba "vamos a calcular el area del triangulo"
+	llamar nueva_linea
+	escriba "ingrese altura"
+	llamar nueva_linea
+	lea altura
+	llamar nueva_linea 
+	escriba "ingrese base"
+	llamar nueva_linea 
+	lea base
+	resultado<-(altura*base)/2
+	llamar nueva_linea 
+	escriba "el area del triangulo es: ", resultado
+fin 

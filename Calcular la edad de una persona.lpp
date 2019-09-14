@@ -1,0 +1,19 @@
+entero A, B, resultado
+caracter T
+inicio 
+
+	escriba "vamos a calcular la edad de una persona"
+	llamar nueva_linea 
+	escriba "ingrese año de nacimiento"
+	llamar nueva_linea 
+	lea A
+	llamar nueva_linea 
+	escriba "escriba año actual"
+	llamar nueva_linea 
+	lea B
+	resultado<-B-A
+	llamar nueva_linea 
+	escriba "la edad de la persona es: ", resultado, " años"
+	
+	
+fin 

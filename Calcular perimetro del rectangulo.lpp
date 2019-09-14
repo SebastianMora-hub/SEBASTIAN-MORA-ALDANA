@@ -1,0 +1,17 @@
+entero altura, base, resultado
+
+inicio 
+
+	escriba "vamos a calcular el perimetro del rectangulo"
+	llamar nueva_linea
+	escriba "ingrese altura"
+	llamar nueva_linea
+	lea altura
+	llamar nueva_linea 
+	escriba "ingrese base"
+	llamar nueva_linea 
+	lea base
+	resultado<-(altura*altura)+(base*base)
+	llamar nueva_linea 
+	escriba "el perimetro del rectangulo: ", resultado
+fin 

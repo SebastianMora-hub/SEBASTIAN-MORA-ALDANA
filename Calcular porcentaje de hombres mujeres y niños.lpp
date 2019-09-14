@@ -1,0 +1,28 @@
+entero numeromujeres, numerohombres
+entero numeroninos
+Real Suma, porcentajehombres, porcentajemujeres, porcentajeninos
+inicio 
+	escriba "calcular porcentaje de hombres y mujeres"
+	llamar nueva_linea 
+	escriba "ingrese cantidad de hombres"
+	llamar nueva_linea 
+	lea numerohombres
+	llamar nueva_linea
+	escriba "ingrese cantidad de mujeres"
+	llamar nueva_linea
+	lea numeromujeres
+	llamar nueva_linea
+	escriba "ingrese cantidad de niños"
+	llamar nueva_linea
+	lea numeroninos
+	llamar nueva_linea
+	Suma<-numeromujeres+numerohombres+numeroninos
+	porcentajehombres<-(numerohombres*100)/suma
+	porcentajemujeres<-(numeromujeres*100)/suma 
+	porcentajeninos<-(numeroninos*100)/suma
+	escriba "el porcentaje de mujeres es: ", porcentajemujeres, "%"
+	llamar nueva_linea
+	escriba "el porcentaje de hombres es: ", porcentajehombres, "%"
+	llamar nueva_linea
+	escriba "el porcentaje de niños es: ", porcentajeninos, "%"
+fin 

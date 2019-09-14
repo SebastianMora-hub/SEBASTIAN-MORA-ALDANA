@@ -1,0 +1,23 @@
+entero nota, reprobados, aprobados
+caracter opcion	
+inicio
+reprobados<-0
+aprobados<-0
+	Repita
+ 		escriba "ingrese nota del alumno(de 10 a 50)"
+		llamar nueva_linea
+		lea nota
+		llamar nueva_linea
+			si nota<=29 entonces
+				reprobados<-reprobados+1
+			sino
+				aprobados<-aprobados+1
+			fin si 
+		escriba "¿Desea continuar?S/N"
+		llamar nueva_linea
+		lea opcion 
+	hasta (opcion='n') o (opcion='N')
+	escriba "el numero de aprobados es: ", aprobados
+	llamar nueva_linea
+	escriba "el numero de reprobados es: ", reprobados
+fin

@@ -1,0 +1,18 @@
+entero valor
+real iva, Aarticulo
+inicio 
+
+	escriba "vamos a calcular el Iva de un articulo"
+	llamar nueva_linea
+	escriba "ingrese el valor del articulo (sin punto)"
+	llamar nueva_linea
+	lea Valor
+	llamar nueva_linea 
+	iva<-valor/18
+	Aarticulo<-valor+iva
+	escriba "el valor sin iva del articulo es: ", valor
+	llamar nueva_linea
+	escriba "el iva del articulo es: ", iva
+	llamar nueva_linea 
+	escriba "el valor con iva del articulo es: ", Aarticulo
+fin 

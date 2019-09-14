@@ -1,0 +1,17 @@
+entero A, B, resultado
+
+inicio 
+
+	escriba "vamos a sumar"
+	llamar nueva_linea
+	escriba "ingrese primer numero"
+	llamar nueva_linea
+	lea A
+	llamar nueva_linea 
+	escriba "ingrese segundo numero"
+	llamar nueva_linea 
+	lea B
+	resultado<-A+B
+	llamar nueva_linea 
+	escriba "el resultado de su suma es: ", resultado
+fin 

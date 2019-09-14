@@ -1,0 +1,11 @@
+entero A, B
+
+inicio
+	escriba "numeros pares del 2 al 20"
+	llamar nueva_linea
+	Para A<-2 Hasta 20 Haga
+		escriba A
+		A<-A+1
+		llamar nueva_linea
+	Fin Para
+fin

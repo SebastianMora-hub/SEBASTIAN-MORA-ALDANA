@@ -1,0 +1,14 @@
+entero numero
+real porcentaje
+inicio 
+
+	escriba "vamos a calcular el 20% de un numero cualquiera"
+	llamar nueva_linea
+	escriba "ingrese cualquier numero"
+	llamar nueva_linea
+	lea numero
+	llamar nueva_linea 
+	porcentaje<-numero/20
+	llamar nueva_linea 
+	escriba "el 20% de ", numero, " es: ", porcentaje 
+fin ·

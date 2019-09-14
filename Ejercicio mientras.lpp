@@ -1,0 +1,16 @@
+entero A
+inicio
+	escriba "ejercicio mientras"
+	llamar nueva_linea
+	escriba "¿cual es el resultado de 10x10?"
+	llamar nueva_linea
+	lea A
+		Mientras (A<100) o (A>100) Haga
+			escriba "respuesta incorrecta, vuelva a intentar"
+			llamar nueva_linea 
+			escriba "¿cual es el resultado de 10x10?"
+			llamar nueva_linea
+			lea A
+		Fin Mientras
+	escriba "respuesta correcta"
+fin
